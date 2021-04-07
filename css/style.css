@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0 auto;
-    width: 992px;
+    max-width: 1140px;
     padding: 1% 5%;
     text-align: center;
 }
@@ -24,6 +24,7 @@ h6,
 p {
     font-family: 'Times New Roman', Times, serif;
     color: #555;
+    max-width: 10px 0px;
 }
 
 a {
@@ -35,4 +36,10 @@ a {
 img {
     width: 100%;
     height: auto;
+}
+
+section,
+footer,
+header {
+    margin-bottom: 10px;
 }
