@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    width: 992px;
+    padding: 1% 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #555;
+}
+
+a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
